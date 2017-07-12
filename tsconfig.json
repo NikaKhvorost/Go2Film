@@ -1,0 +1,22 @@
+{
+  "db": {
+    "dialect":"mysql",
+    "host": "127.0.0.1",
+    "name": "OBTC",
+    "user": "root",
+    "password": ""
+  },
+  "env": "dev",
+  "cookie": {
+    "key": "OBTC",
+    "auth": "x-access-token"
+  },
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
